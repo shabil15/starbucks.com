@@ -1,0 +1,348 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  font-family:'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+}
+
+
+
+/* NAVBAR */
+
+
+
+nav{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 2px 0 rgb(60, 60, 60); 
+}
+
+.navbar-brand img{
+  height: 55px;
+  width: 55px;
+  margin: 18px;
+}
+
+.nav-link{
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+  color: rgb(0, 98, 65);
+}
+
+.locator{
+  height: 25px;
+  fill: black;
+}
+
+
+.nav-link{
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'SoDo Sans';
+}
+
+.offset-right {
+  margin-right: auto;
+}
+
+       /* BOXES */
+
+
+.box-a{
+  background-color: rgb(143, 139, 244);
+  align-items: center;
+}
+
+.box-b{
+  background-color: rgb(235, 129, 165);
+  align-items: center;
+}
+
+.box-c{
+  background-color: rgb(241, 255, 103);
+  align-items: center;
+}
+
+.box-d{
+  background-color: rgb(252, 100, 70);
+  align-items: center;
+}
+
+.pictures{
+  width: 100%;
+  
+}
+
+.inner-text h2{
+  text-align: center;
+  font-family: 'SoDo Sans';
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 5rem 2rem 3rem 2rem;
+}
+
+.inner-text p{
+  font-family: 'SoDo Sans';
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 24px;
+}
+
+.inner-text .btn{
+  font-family: 'SoDo Sans';
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.inner-text .btn:hover{
+  opacity: 70%; 
+}
+
+.box .btn :hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.notice{
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+  text-align: center;
+  margin-top: 3rem;
+  box-shadow: 2px , rgb(60, 60, 60);
+}
+ 
+                     /* FOOTER */
+
+footer li{
+  line-height: 2rem;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  
+}
+
+footer li :hover{
+ color: rgb(0, 0, 0);
+ text-decoration: underline;
+}
+
+.ft:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mb-2{
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: smaller;
+}
+
+.social a{
+  text-decoration: none;
+}
+
+.social img{
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.ft{
+  display: inline;
+  font-family: 'SoDo Sans';
+}
+
+.accordion-button {
+  color: rgb(0, 0, 0); 
+  background-color: rgb(255, 255, 255); 
+  border: none; 
+}
+
+.accordion-button:focus {
+  box-shadow: none; 
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(255, 253, 253); 
+}
+
+footer p{
+  margin-bottom: 60px;
+  color: rgb(120, 119, 119);
+}
+
+.top-btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 280px) {
+  
+  .navbar-brand img{
+    height: 35px;
+    width: 35px;
+    margin: 8px;
+  }
+
+  .inner-text h2{
+    font-size: 16px;
+    margin: 20px;;
+    letter-spacing: 5px;
+
+  }
+  .inner-text p{
+    font-size: 16px;
+  }
+  .social{
+    display: inline;
+  }
+  .twitter{
+    display: none;
+  }
+  .social img{
+    height: 10px;
+    
+  }
+ 
+ }
+ @media only screen and (max-width: 500px) {
+  .footer-details li{
+    font-size: 15px;
+    margin-bottom:20px ;
+  }
+
+  .ft {
+    display: block;
+    
+  }
+  .social{
+    margin-left: 30px;
+  }
+  .social img{
+    height: 20px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+ }
+
+
+
+ @media only screen and (max-width: 768px) {
+ 
+  .navbar-brand img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+  }
+  .inner-text h2{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 19px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 3px;
+
+  }
+  .inner-text p{
+    font-size: 14px;
+  }
+  .inner-text .btn{
+    font-size: smaller;
+    margin-bottom: 45px;
+  }
+ }
+
+
+
+ @media only screen and (max-width: 833px) {
+  
+  .inner-text h2{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 19px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 3px;
+
+  }
+  .inner-text p{
+    font-size: 14px;
+  }
+  .inner-text .btn{
+    font-size: smaller;
+    margin-bottom: 45px;
+  }
+ }
+
+ 
+
+
+ @media only screen and (max-width: 988px) {
+ 
+  .d-flex .btn{
+    height: 50px;
+    
+  }
+  .inner-text h2{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 3px;
+
+  }
+  .inner-text p{
+    font-size: 17px;
+  }
+ }
+
+
+
+
+
+ @media only screen and (max-width: 1103px) {
+ 
+  .navbar-brand img{
+    height: 45px;
+    width: 45px;
+    margin: 13px;
+  }
+
+  .inner-text h2{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 4px;
+
+  }
+  .inner-text p{
+    font-size: 20px;
+  }
+  .container .row{
+    display: none;
+  }
+   
+ }
+
+
+
+
+
+ @media only screen and (min-width: 1103px) {
+  .accordion{
+    display:none;
+  }
+}
